@@ -1,0 +1,31 @@
+button{
+	display: block;
+	border-radius: 4px;
+	color: #000;
+	font:14px/1.2em "黑体",sans-serif;
+}
+#tagText{
+	border:1px solid #bbb;
+}
+#tagContainer{
+	overflow: hidden;
+	margin:20px 0;
+}
+#tagContainer div{
+	float: left;
+	color: white;
+	background:#88C5FB ;
+	font:20px/1.2em "黑体";
+	margin-right: 5px;
+}
+#intrist{
+	margin-top: 5px;
+}
+#intrist div{
+	float: left;
+	background: #FFCA86;
+	color: white;
+	font:20px/1.2em "黑体";
+	margin-right: 5px;
+	border-radius: 3px;
+}
