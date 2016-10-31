@@ -1,0 +1,63 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: "黑体",sans-serif;
+}
+#form{
+	width: 500px;
+	margin:50px auto;
+	text-align: center;
+}
+#top label{
+	margin-right: 100px;
+}
+div{
+	margin-bottom: 40px;
+}
+#left{
+	float: left;
+	text-align: left;
+}
+#right{
+	float: left;
+}
+#left label,#right label{
+	margin-right: 10px;
+	font-size: 14px;
+	font-weight: bold;
+}
+#left select,#right select{
+	font-size: 14px;
+	color: #777;
+	height: 30px;
+	margin-right: 20px;
+	border: 1px solid lightgray;
+	border-radius: 5px;
+}
+#selection{
+	width: 100px;
+}
+#right select{
+	width: 200px;
+}
+#employer{
+	text-align: left;
+}
+#employer input{
+	width: 300px;
+	height: 30px;
+	border: 1px solid lightgray;
+	border-radius: 5px;
+}
+#employer span{
+	margin-right: 15px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.display{
+	display: block;
+}
+.hidden{
+	display:none;
+}

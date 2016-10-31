@@ -1,0 +1,23 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#top{
+	margin-left: 5px;
+}
+button{
+	width: 80px;
+	border-radius: 5px;
+	margin: 5px;
+}
+#bt2{
+	margin-right: 20px;
+}
+.bottomDiv{
+	background: red;
+	color: white;
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin: 0 5px;
+}

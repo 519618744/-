@@ -1,0 +1,11 @@
+#container div{
+	height: 50px;
+	width: 40px;
+	color: white;
+	background: gray;
+	float: left;
+	margin-right: 10px;
+}
+span{
+	background: red;
+}
