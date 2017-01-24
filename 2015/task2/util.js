@@ -55,7 +55,11 @@ var abObj=srcObj;
 var tarObj=cloneObject(srcObj);
 srcObj.a=2;
 srcObj.b.b1[0]="hello";
-
+var abArr = [1, 2, 3];
+var cloneArr = cloneObject(abArr);
+abArr[0] = 3;
+console.log(typeof abArr);
+console.log(cloneArr[0]);
 // console.log(abObj.a);
 // console.log(abObj.b.b1[0]);
 

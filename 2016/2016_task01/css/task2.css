@@ -8,25 +8,25 @@ html,body{
     clear:both; 
 } 
 .clearfix {*zoom:1;}
-#all{
+#wrap{
 	width: 980px;
 	height: 1386px;
 	margin: 0 auto;
 	background: #fff;
 }
-#wrap{
+#content{
 	width: 892px;
 	margin: 0 auto;
 }
 /*头部开始*/
 #header .a{
+	position: relative;
+	float: left;
 	width: 110px;
 	height: 61px;
 	background: #db4d6d;
-	color: white;
+	color: #fff;
 	font: 12px/12px "黑体",sans-serif;
-	position: relative;
-	float: left;
 }
 #header .a p{
 	position: absolute;
@@ -85,9 +85,9 @@ html,body{
 	border-top: 2px solid #cc8091;
 }
 #top .right .about{
+	border-bottom: 2px solid #333;
 	font: 24px/40px "微软雅黑",sans-serif;
 	color: #000;
-	text-decoration: underline;
 }
 #top .right span{
 	font-size: 30px;
@@ -243,8 +243,7 @@ html,body{
 	width: 100%;
 	height: 61px;
 	line-height: 61px;
-	background: #000;
-	opacity: 0.5;
+	background: rgba(0, 0, 0, .5);
 }
 #jishu .rectangle{
 	float: left;
@@ -279,7 +278,7 @@ html,body{
 }
 #right #two li{
 	margin-top:20px;
-	background: url(i/triangle.png) no-repeat left;
+	background: url(../i/triangle.png) no-repeat left;
 	padding-left: 15px;
 	font:16px/1 "宋体",serif;
 	color: #5a5a5b;

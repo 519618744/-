@@ -1,4 +1,6 @@
-html,body{width: 100%;}
+html,body{
+	width: 100%;
+}
 #wrap{
 	background: #eee;
 }
@@ -22,7 +24,8 @@ html,body{width: 100%;}
 	color: white;
 	font:14px/60px "黑体",sans-serif;
 }
-#head .four,a:hover{
+#head .four,
+#head a:hover{
 	color: gray;
 }
 #left{
@@ -36,10 +39,11 @@ html,body{width: 100%;}
 	background: white;
 }
 #right .celan{
-	background:url(i/task_3.jpg) no-repeat;
-	font: 16px/40px "黑体",sans-serif;
-	padding-left: 10px;
+	border-left: 3px solid #ccc;	
 	margin:20px 0 0 30px;
+	padding-left: 10px;
+	font: 16px/40px "黑体",sans-serif;
+	
 }
 #right table{
 	font: 12px/12px "黑体",sans-serif;
@@ -60,6 +64,7 @@ html,body{width: 100%;}
 	color: white;
 	margin: 0 auto;
 	margin-top: 10px;
+	border: none;
 	border-radius: 10px;
 }
 #first,#sec,#thir,#four{

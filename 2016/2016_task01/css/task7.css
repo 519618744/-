@@ -241,6 +241,14 @@ button{
 	margin-right: 35px;
 	overflow: hidden;
 }
+#activity .img-wrap {
+	height: 340px;
+	overflow: hidden;
+}
+.pic-wrap img {
+	width: 100%;
+	height: 100%;
+}
 .pic-wrap img:hover{
 	transform: scale(1.5);
 	transition: all 1s;
